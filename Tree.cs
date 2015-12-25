@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using system.IO;
 
 namespace BinaryTree
 {
     public class Tree<TItem> where TItem : IComparable<TItem>
     {
+        int llll;
         public Tree(TItem nodeValue)
         {
             this.NodeData = nodeValue;
