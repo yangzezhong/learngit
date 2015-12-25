@@ -8,8 +8,8 @@ namespace BinaryTree
 {
     public class Tree<TItem> where TItem : IComparable<TItem>
     {
+
         int ssss = 100;
-        int llll;
         public Tree(TItem nodeValue)
         {
             this.NodeData = nodeValue;
