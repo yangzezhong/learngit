@@ -8,7 +8,7 @@ namespace BinaryTree
 {
     public class Tree<TItem> where TItem : IComparable<TItem>
     {
-
+        int a = 50;
         int ssss = 100;
         public Tree(TItem nodeValue)
         {
